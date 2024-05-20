@@ -1,13 +1,21 @@
+# Core scientific libraries
 numpy==1.26.4
 scipy==1.13.0
 sympy==1.12
 pandas==2.2.2
 scikit-learn==1.4.2
 statsmodels==0.14.2
+
+# Plotting
 matplotlib==3.8.4
-matplotlib-inline==0.1.7
+pyqt6==6.7.0 # GUI backend for matplotlib
 seaborn==0.13.2
-jupyter==1.0.0
-ipympl==0.9.4
+
+# Jupyter Notebooks
+jupyter==1.0.0 # Meta-package that includes the essential Jupyter components
+matplotlib-inline==0.1.7 # Default way to display figures inline (optionally, you can explicitly add %matplotlib inline)
+ipympl==0.9.4 # Interactive plots by using %matplotlib widget
+
+# Utils
 tqdm==4.66.2
 mypy==1.9.0
