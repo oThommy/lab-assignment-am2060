@@ -1,3 +1,5 @@
 {
-    "jupyter.notebookFileRoot": "${workspaceFolder}"
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.autoImportCompletions": true
 }
