@@ -1,11 +1,11 @@
 from typing import Optional
 import numpy as np
 
-def is_divisible_by(dividend: float, divisor: float, tol: float = 1e-9) -> bool:
+def is_divisible_by(dividend: float, divisor: float, tolerance: float = 1e-9) -> bool:
     if divisor == 0:
         raise ValueError('The divisor cannot be zero.')
     quotient = dividend / divisor
-    return np.abs(quotient - round(quotient)) < tol
+    return np.abs(quotient - round(quotient)) < tolerance
 
 def assert_is_positive(x: float, /, variable_name: Optional[str] = None) -> None:
     if x > 0:
