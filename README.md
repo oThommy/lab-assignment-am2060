@@ -1,12 +1,15 @@
+[![python-version](https://img.shields.io/badge/python-v3.12.3-blue)](https://www.python.org/downloads/release/python-3123/)
+![license](https://img.shields.io/badge/license-MIT-green)
+[![download](https://img.shields.io/badge/download-.zip-brightgreen)](https://github.com/oThommy/lab-assignment-am2060/archive/refs/heads/main.zip)
 # Lab Assignment AM2060
 
 # Python environement setup
-Please ensure you have Python version 3.12.3 installed.
+Please ensure you have Python version 3.12.3 installed (the button above redirects to the official download page).
 
 ## Using a normal Python installation
 ### Using cmd
-- Download the ZIP on https://github.com/oThommy/lab-assignment-am2060/ and extract the directory.
-- Open `cmd.exe` in the root of `lab-assignment-am2060` as administrator and run `python -m venv .venv && ".venv\Scripts\activate.bat" && pip install -r requirements.txt`.
+- Download the ZIP by using the button above and extract the directory.
+- Open `cmd.exe` in the root of `lab-assignment-am2060-main` as administrator and run `python -m venv .venv && ".venv\Scripts\activate.bat" && pip install -r requirements.txt`.
 - To activate virtual environment use `".venv\Scripts\activate.bat"`.
 - To deactivate virtual environment use `deactivate`.
 
@@ -21,7 +24,8 @@ Please ensure you have Python version 3.12.3 installed.
 
 ## Using an Anaconda installation
 Replace `C:/ProgramData/Anaconda3/` with `your/path/to/Anaconda3` in the code below in case they do not match.
-- Open `cmd.exe` in the root of `lab-assignment-am2060` as administrator and run `"C:/ProgramData/Anaconda3/condabin/activate.bat" && conda env create -f environment.yml && conda activate lab-assignment-am2060-venv`.
+- Download the ZIP by using the button above and extract the directory.
+- Open `cmd.exe` in the root of `lab-assignment-am2060-main` as administrator and run `"C:/ProgramData/Anaconda3/condabin/activate.bat" && conda env create -f environment.yml && conda activate lab-assignment-am2060-venv`.
 - To activate virtual environment use `conda activate lab-assignment-am2060-venv`.
 - To deactivate virtual environment use `conda deactivate`.
 
